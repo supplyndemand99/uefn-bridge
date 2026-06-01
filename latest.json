@@ -1,5 +1,5 @@
 {
-  "version": "v1.0",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.0/UEFN-Bridge-Setup-1.0.exe",
-  "notes": "- First public release\n- Blender + UEFN bridge"
+  "version": "v1.2",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.2/UEFN-Bridge-Setup-1.2.exe",
+  "notes": "- Server-side rule enforcement (verse / auto_place / blender / asset_method / Blender MCP / auto_import)\n- Structured refusals: the AI is told a block is YOUR setting, with the rule + what to do next\n- UI cleanup and smarter window surfacing (only pops up when a project needs install/update)"
 }
