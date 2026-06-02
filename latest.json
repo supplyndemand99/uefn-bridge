@@ -1,5 +1,5 @@
 {
-  "version": "v1.6",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.6/UEFN-Bridge-Setup-1.6.exe",
-  "notes": "- Real auto-update: the app now downloads the installer itself with a real progress bar, then runs it to apply the update instead of just opening the download page.\n- The installer runs silently and relaunches the app on the new version.\n- Updates show on launch again; clicking the updates bar or Check for updates always performs a fresh check."
+  "version": "v1.7",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.7/UEFN-Bridge-Setup-1.7.exe",
+  "notes": "- Improved the Copy AI Prompt hand-off: it now gives general context for using the bridge (importing, placing, in-editor work) instead of being narrowly worded around creating a single asset."
 }
