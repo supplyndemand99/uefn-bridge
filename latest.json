@@ -1,5 +1,5 @@
 {
-  "version": "v1.3",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.3/UEFN-Bridge-Setup-1.3.exe",
-  "notes": "- Copy AI Prompt button - copies a context hand-off prompt (auto-filled with the user's project paths) so a fresh AI chat uses the bridge instead of refusing.\n- Dev / production split - running from source (run_qt.bat) is an isolated DEV build (own settings folder, own startup key, amber DEV badge); the .exe is production. Testing can't touch the real install.\n- Fixed activity-log spam / rules-file loop - atomic write_json, rule reconcile only on project connect, routine syncs silent.\n- Fixed Check for updates hanging on Checking for updates... - the result is now marshaled to the GUI thread via a Qt Signal."
+  "version": "v1.4",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.4/UEFN-Bridge-Setup-1.4.exe",
+  "notes": "- Reliable update checks - the updater now cache-busts the manifest request (unique query param + no-cache headers). This fixes stale GitHub raw-CDN copies making the app report 'up to date' after a release."
 }
