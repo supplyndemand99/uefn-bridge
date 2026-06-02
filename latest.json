@@ -1,5 +1,5 @@
 {
-  "version": "v1.7",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.7/UEFN-Bridge-Setup-1.7.exe",
-  "notes": "- Improved the Copy AI Prompt hand-off: it now gives general context for using the bridge (importing, placing, in-editor work) instead of being narrowly worded around creating a single asset."
+  "version": "v1.8",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.8/UEFN-Bridge-Setup-1.8.exe",
+  "notes": "- Multi-user: install now auto-adds Content/Python/UEFNBridge/ to the project's .gitignore/.p4ignore, so the bridge's runtime files stop causing source-control conflicts between teammates.\n- Runner counts rule-gated jobs as refused, separate from real failures (e.g. 3 done, 2 failed, 5 refused).\n- Contract section 8 now documents where AI jobs should write output files: log() or the bridge work folder, never the AI's home dir.\n- Includes the v1.7 Copy AI Prompt improvement.\n\nSpecial notes: PAYLOAD_VERSION bumped to 1.3-bridge, so each project will show \"Update Bridge Payload\" once after updating the app. Existing projects that already committed the bridge folder may still need to untrack it once by hand."
 }
