@@ -1,5 +1,5 @@
 {
-  "version": "v1.4",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.4/UEFN-Bridge-Setup-1.4.exe",
-  "notes": "- Reliable update checks - the updater now cache-busts the manifest request (unique query param + no-cache headers). This fixes stale GitHub raw-CDN copies making the app report 'up to date' after a release."
+  "version": "v1.5",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.5/UEFN-Bridge-Setup-1.5.exe",
+  "notes": "- Fixed auto_place being too strict - it was blocking the AI from placing anything (buttons, primitives, devices). It now only stops auto-placing Blender-imported assets; primitives/devices/actors can be placed on request again.\n- Payload updated to 1.2-bridge. After installing v1.5, each connected project should use Update Bridge Payload once to deploy the fixed payload."
 }
