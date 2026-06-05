@@ -1,5 +1,11 @@
 {
-  "version": "v1.9.1",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.9.1/UEFN-Bridge-Setup-1.9.1.exe",
-  "notes": "- Another go at the update-time \"Failed to load Python DLL\" popup: the post-update relaunch now waits 3 seconds (relaunching the instant the new exe was written raced antivirus scanning), and boots are now logged so if it ever shows again we can pinpoint it for good. The popup was always harmless - the app updates and runs fine; just click OK if you see it one more time on this update.\n\nApp-only update: no \"Update Bridge Payload\" step."
+  "version": "v2.0.0",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.0.0/UEFN-Bridge-Setup-2.0.0.exe",
+  "notes": "- The app now needs a one-time unlock key from the developer. Enter it once and this computer stays unlocked for good - updates and going offline won't ask again.\n- Brand-new Theme Studio: recolour the whole app from a live mini preview. Click any card or button to edit it, drag colour / vibrance / brightness sliders, edit borders on their own, and watch it all update live before you commit.\n- Built-in theme presets (Deep Ocean, Synthwave, Emerald City, Frostbyte and more) - one click to apply, then tweak to taste.\n- Save your own presets and re-apply them anytime.\n- Undo/redo while theming (Ctrl+Z / Ctrl+Y).\n- ...and a ridiculous live-rainbow RGB theme, because why not.\n\nApp-only update: no \"Update Bridge Payload\" step.",
+  "history": [
+    {
+      "version": "v2.0.0",
+      "notes": "- The app now needs a one-time unlock key from the developer. Enter it once and this computer stays unlocked for good - updates and going offline won't ask again.\n- Brand-new Theme Studio: recolour the whole app from a live mini preview. Click any card or button to edit it, drag colour / vibrance / brightness sliders, edit borders on their own, and watch it all update live before you commit.\n- Built-in theme presets (Deep Ocean, Synthwave, Emerald City, Frostbyte and more) - one click to apply, then tweak to taste.\n- Save your own presets and re-apply them anytime.\n- Undo/redo while theming (Ctrl+Z / Ctrl+Y).\n- ...and a ridiculous live-rainbow 'RGB' theme, because why not."
+    }
+  ]
 }
