@@ -1,5 +1,5 @@
 {
-  "version": "v1.9",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.9/UEFN-Bridge-Setup-1.9.exe",
-  "notes": "- The bridge can SEE. New vision ops let the AI photograph the level and photo-booth materials/meshes far away from your map - from its own self-cleaning camera rig that never touches your viewport.\n- New safety, on by default: \"AI must visually verify its work\". The runner photographs whatever a job places or builds and refuses further work until the AI reviews the shots - half-buried or broken-looking results get caught by the AI instead of you.\n- Raw screenshot/camera code is gated; captures only happen through the safe built-in ops.\n- New read ops: list_actors, validate, runfile.\n- The in-editor runner now always starts OFF unless turned on, and its event log no longer grows forever.\n- Open Folders opens only what's relevant (and the screenshots folder once captures exist).\n\nAfter the app updates, each project shows \"Update Bridge Payload\" once - that click installs the new runner (payload 1.4-bridge). Restart UEFN afterwards."
+  "version": "v1.9.1",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v1.9.1/UEFN-Bridge-Setup-1.9.1.exe",
+  "notes": "- Another go at the update-time \"Failed to load Python DLL\" popup: the post-update relaunch now waits 3 seconds (relaunching the instant the new exe was written raced antivirus scanning), and boots are now logged so if it ever shows again we can pinpoint it for good. The popup was always harmless - the app updates and runs fine; just click OK if you see it one more time on this update.\n\nApp-only update: no \"Update Bridge Payload\" step."
 }
