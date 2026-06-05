@@ -1,8 +1,12 @@
 {
-  "version": "v2.0.0",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.0.0/UEFN-Bridge-Setup-2.0.0.exe",
-  "notes": "- The app now needs a one-time unlock key from the developer. Enter it once and this computer stays unlocked for good - updates and going offline won't ask again.\n- Brand-new Theme Studio: recolour the whole app from a live mini preview. Click any card or button to edit it, drag colour / vibrance / brightness sliders, edit borders on their own, and watch it all update live before you commit.\n- Built-in theme presets (Deep Ocean, Synthwave, Emerald City, Frostbyte and more) - one click to apply, then tweak to taste.\n- Save your own presets and re-apply them anytime.\n- Undo/redo while theming (Ctrl+Z / Ctrl+Y).\n- ...and a ridiculous live-rainbow RGB theme, because why not.\n\nApp-only update: no \"Update Bridge Payload\" step.",
+  "version": "v2.0.1",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.0.1/UEFN-Bridge-Setup-2.0.1.exe",
+  "notes": "- Fixed the 'Failed to load Python DLL' error box some people saw on launch or after updating. The app is now packaged as a folder instead of a single self-extracting exe, so Windows and antivirus stop tripping over the temporary unpack. No action needed - just update.\n\nApp-only update: no \"Update Bridge Payload\" step.",
   "history": [
+    {
+      "version": "v2.0.1",
+      "notes": "- Fixed the 'Failed to load Python DLL' error box some people saw on launch or after updating. The app is now packaged as a folder instead of a single self-extracting exe, so Windows and antivirus stop tripping over the temporary unpack. No action needed - just update."
+    },
     {
       "version": "v2.0.0",
       "notes": "- The app now needs a one-time unlock key from the developer. Enter it once and this computer stays unlocked for good - updates and going offline won't ask again.\n- Brand-new Theme Studio: recolour the whole app from a live mini preview. Click any card or button to edit it, drag colour / vibrance / brightness sliders, edit borders on their own, and watch it all update live before you commit.\n- Built-in theme presets (Deep Ocean, Synthwave, Emerald City, Frostbyte and more) - one click to apply, then tweak to taste.\n- Save your own presets and re-apply them anytime.\n- Undo/redo while theming (Ctrl+Z / Ctrl+Y).\n- ...and a ridiculous live-rainbow 'RGB' theme, because why not."
