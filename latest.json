@@ -1,8 +1,18 @@
 {
-  "version": "v2.0.1",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.0.1/UEFN-Bridge-Setup-2.0.1.exe",
-  "notes": "- Fixed the 'Failed to load Python DLL' error box some people saw on launch or after updating. The app is now packaged as a folder instead of a single self-extracting exe, so Windows and antivirus stop tripping over the temporary unpack. No action needed - just update.\n\nApp-only update: no \"Update Bridge Payload\" step.",
+  "version": "v2.2.0",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.0/UEFN-Bridge-Setup-2.2.0.exe",
+  "sha256": "1a7758f6fdcc86f3418f6f2570db3e84aab9f85b354c50079eec14c2775c430a",
+  "size": 174045091,
+  "notes": "- New Knowledge Tree tab: a built-in, always-current base of verified UEFN facts your AI can search - so it stops guessing.\n- Teach it as you build: drag a working folder or .zip onto the wall, or leave auto-capture on to quietly collect lessons from your project notes.\n- Epic's UEFN documentation now stays up to date automatically in the background.\n- Plus the brand-new one-window interface and in-app updates, and a batch of stability fixes.",
   "history": [
+    {
+      "version": "v2.2.0",
+      "notes": "- New Knowledge Tree tab: a built-in, always-current base of verified UEFN facts your AI can search - so it stops guessing.\n- Teach it as you build: drag a working folder or .zip onto the wall, or leave auto-capture on to quietly collect lessons from your project notes.\n- Epic's UEFN documentation now stays up to date automatically in the background.\n- Plus the brand-new one-window interface and in-app updates, and a batch of stability fixes."
+    },
+    {
+      "version": "v2.1.0",
+      "notes": "- A brand-new, faster interface - the whole app in one clean window.\n- Updates now download and install in-app - no more manual downloads.\n- Smoother performance, rounded window, and the same one-click project setup.\n- Better UEFN project detection (2026 log format) + stability fixes."
+    },
     {
       "version": "v2.0.1",
       "notes": "- Fixed the 'Failed to load Python DLL' error box some people saw on launch or after updating. The app is now packaged as a folder instead of a single self-extracting exe, so Windows and antivirus stop tripping over the temporary unpack. No action needed - just update."
