@@ -1,10 +1,14 @@
 {
-  "version": "v2.2.0",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.0/UEFN-Bridge-Setup-2.2.0.exe",
-  "sha256": "1a7758f6fdcc86f3418f6f2570db3e84aab9f85b354c50079eec14c2775c430a",
-  "size": 174045091,
-  "notes": "- New Knowledge Tree tab: a built-in, always-current base of verified UEFN facts your AI can search - so it stops guessing.\n- Teach it as you build: drag a working folder or .zip onto the wall, or leave auto-capture on to quietly collect lessons from your project notes.\n- Epic's UEFN documentation now stays up to date automatically in the background.\n- Plus the brand-new one-window interface and in-app updates, and a batch of stability fixes.",
+  "version": "v2.2.1",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.1/UEFN-Bridge-Setup-2.2.1.exe",
+  "sha256": "116fe3ca7d7c28d60331faa1f5e40025d3dfec9b85165e98f81e751eb19b4356",
+  "size": 174071249,
+  "notes": "- Connect your AI in ONE CLICK - Claude Desktop, Claude Code AND Codex, each with a live 'connected' tick.\n- The Knowledge Tree now receives Epic-docs updates and community knowledge through a secure feed for licensed users.\n- Smarter knowledge search results and small fixes.",
   "history": [
+    {
+      "version": "v2.2.1",
+      "notes": "- Connect your AI in ONE CLICK - Claude Desktop, Claude Code AND Codex, each with a live 'connected' tick.\n- The Knowledge Tree now receives Epic-docs updates and community knowledge through a secure feed for licensed users.\n- Smarter knowledge search results and small fixes."
+    },
     {
       "version": "v2.2.0",
       "notes": "- New Knowledge Tree tab: a built-in, always-current base of verified UEFN facts your AI can search - so it stops guessing.\n- Teach it as you build: drag a working folder or .zip onto the wall, or leave auto-capture on to quietly collect lessons from your project notes.\n- Epic's UEFN documentation now stays up to date automatically in the background.\n- Plus the brand-new one-window interface and in-app updates, and a batch of stability fixes."
