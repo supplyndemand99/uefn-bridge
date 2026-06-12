@@ -1,10 +1,14 @@
 {
-  "version": "v2.2.3",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.3/UEFN-Bridge-Setup-2.2.3.exe",
-  "sha256": "1b742ac8e2104989800f1535eed670a837712b7e56ab28de6e41e94973245078",
-  "size": 183115560,
-  "notes": "- Tree updates land in ~30 minutes instead of 12 hours.\n- When one of YOUR lessons graduates into everyone's tree you'll see it (and get a little toast) - plus the global tree numbers now come live from the network, same for every user.\n- Your AI got two new powers: kb_verify checks a Verse plan against your project's real API before any code is written (catches would-not-compile calls), and kb_get expands any lesson to its full record.\n- Smarter, leaner answers: inherited members show up (with where they come from), small classes list full typed signatures in one call, junk matches stopped flooding results, and exact answers no longer carry a false 'no confident match' warning.\n- Sharing privacy got tighter: machine names, project names, and people's names are now scrubbed from outgoing lessons too.\n- 40+ new audited lessons on the community feed (Epic samples, v41.00 release-note facts, Scene Graph patterns).",
+  "version": "v2.2.4",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.4/UEFN-Bridge-Setup-2.2.4.exe",
+  "sha256": "52fabd216f7566945823a2ca4e3d2805249b04cc762e06fcf3457ec301129fb2",
+  "size": 183100746,
+  "notes": "- 'Grew this week' now shows the network's real weekly growth, same number for everyone.\n- Lesson labels now say where each lesson came from at a glance: yours, community, or harvested from public sources.\n- Your AI's tools got sharper: expanding a lesson always returns the full text, new lessons are stamped with the Fortnite version they were learned on, and the stats now count the thousands of verified API declarations served live from your project's digest.\n- Faster, sturdier global stats serving behind the scenes.",
   "history": [
+    {
+      "version": "v2.2.4",
+      "notes": "- 'Grew this week' now shows the network's real weekly growth, same number for everyone.\n- Lesson labels now say where each lesson came from at a glance: yours, community, or harvested from public sources.\n- Your AI's tools got sharper: expanding a lesson always returns the full text, new lessons are stamped with the Fortnite version they were learned on, and the stats now count the thousands of verified API declarations served live from your project's digest.\n- Faster, sturdier global stats serving behind the scenes."
+    },
     {
       "version": "v2.2.3",
       "notes": "- Tree updates land in ~30 minutes instead of 12 hours.\n- When one of YOUR lessons graduates into everyone's tree you'll see it (and get a little toast) - plus the global tree numbers now come live from the network, same for every user.\n- Your AI got two new powers: kb_verify checks a Verse plan against your project's real API before any code is written (catches would-not-compile calls), and kb_get expands any lesson to its full record.\n- Smarter, leaner answers: inherited members show up (with where they come from), small classes list full typed signatures in one call, junk matches stopped flooding results, and exact answers no longer carry a false 'no confident match' warning.\n- Sharing privacy got tighter: machine names, project names, and people's names are now scrubbed from outgoing lessons too.\n- 40+ new audited lessons on the community feed (Epic samples, v41.00 release-note facts, Scene Graph patterns)."
