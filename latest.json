@@ -1,10 +1,17 @@
 {
-  "version": "v2.2.6",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.6/UEFN-Bridge-Setup-2.2.6.exe",
-  "sha256": "214126bc92537522027ed14dd1e479ebfb963bb0a08e1b6826eed77feac23efc",
-  "size": 140984228,
-  "notes": "- Verse project detection now recognises UEFN projects opened from their parent workspace folder.\n- The Verse status can be marked verified after setup and stays verified after restart.\n- A confirmed wrong-project result still wins, so verification cannot hide a real mismatch.\n- Existing installs receive a one-time setup card with the exact action they need.\n- This friends-test build is intentionally unsigned. v2.2.5 users will be sent to the GitHub release page for the one required manual install.",
+  "version": "v2.2.7",
+  "release_channel": "friends-unsigned-v1",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.7/UEFN-Bridge-Setup-2.2.7.exe",
+  "sha256": "65cc9e548ca942418d3eb9446d1de9bbfc831cf846b00828a9a382bebd1a6083",
+  "size": 140980817,
+  "source_commit": "5c19bca40676ed0771fb8d64a9960f6093e6d8a1",
+  "bundle_provenance_sha256": "7ddc8a2fd0df6384e2eb5068da8a263cbe970f51863a960dae9f892ab3a6b76b",
+  "notes": "- Future unsigned friends updates now download, verify, and install directly inside UEFN Bridge instead of sending you to GitHub.\n- This is the one-time transition install for anyone already on v2.2.5 or v2.2.6; after it, normal in-app updating is restored.\n- The Verse build pill now greens after a confirmed compile and accepts a project workspace stored in the parent projects folder.\n- The one-time Setup card now uses one prompt to finish VS Code and create the daily Knowledge Tree lesson collector.",
   "history": [
+    {
+      "version": "v2.2.7",
+      "notes": "- Future unsigned friends updates now download, verify, and install directly inside UEFN Bridge instead of sending you to GitHub.\n- This is the one-time transition install for anyone already on v2.2.5 or v2.2.6; after it, normal in-app updating is restored.\n- The Verse build pill now greens after a confirmed compile and accepts a project workspace stored in the parent projects folder.\n- The one-time Setup card now uses one prompt to finish VS Code and create the daily Knowledge Tree lesson collector."
+    },
     {
       "version": "v2.2.6",
       "notes": "- Verse project detection now recognises UEFN projects opened from their parent workspace folder.\n- The Verse status can be marked verified after setup and stays verified after restart.\n- A confirmed wrong-project result still wins, so verification cannot hide a real mismatch.\n- Existing installs receive a one-time setup card with the exact action they need.\n- This friends-test build is intentionally unsigned. v2.2.5 users will be sent to the GitHub release page for the one required manual install."
