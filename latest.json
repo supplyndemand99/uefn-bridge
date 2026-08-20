@@ -1,13 +1,17 @@
 {
-  "version": "v2.2.7",
+  "version": "v2.2.8",
   "release_channel": "friends-unsigned-v1",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.7/UEFN-Bridge-Setup-2.2.7.exe",
-  "sha256": "65cc9e548ca942418d3eb9446d1de9bbfc831cf846b00828a9a382bebd1a6083",
-  "size": 140980817,
-  "source_commit": "5c19bca40676ed0771fb8d64a9960f6093e6d8a1",
-  "bundle_provenance_sha256": "7ddc8a2fd0df6384e2eb5068da8a263cbe970f51863a960dae9f892ab3a6b76b",
-  "notes": "- Future unsigned friends updates now download, verify, and install directly inside UEFN Bridge instead of sending you to GitHub.\n- This is the one-time transition install for anyone already on v2.2.5 or v2.2.6; after it, normal in-app updating is restored.\n- The Verse build pill now greens after a confirmed compile and accepts a project workspace stored in the parent projects folder.\n- The one-time Setup card now uses one prompt to finish VS Code and create the daily Knowledge Tree lesson collector.",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.8/UEFN-Bridge-Setup-2.2.8.exe",
+  "sha256": "4ff115d51cd176d060801ceb19ec5c7254db97b1de84f74467112132ace3aa48",
+  "size": 142395607,
+  "source_commit": "1e3b802ee35d64aeeca7a00b521f1c29dc0bc1b2",
+  "bundle_provenance_sha256": "bedceb987fe00542c62f6bdb73bb192538a1b82b36ef081756ecd0cc7475f4fb",
+  "notes": "- UEFN Bridge is now focused on the Knowledge Tree. The retired editor-automation half (project runner, Verse toolchain patch, Blender integration) has been removed in favour of Epic's official UEFN MCP toolsets - the app is smaller and faster.\n- First launch cleanly retires any Bridge runner files previously installed inside your UEFN projects (your own files are never touched). Uninstall still cleans up older installs too.\n- Community lesson sharing is now always on: anonymized lessons only, never your source code. Raw Verse drops remain a separate opt-in. Previously collected local lessons are shared once as a one-time catch-up.\n- The lesson collector now runs weekly (daily was overkill) and the health display matches.\n- Ask your AI about Epic's official UEFN MCP - the Knowledge Tree now serves its toolset (Verse compile with structured diagnostics, device configuration, Scene Graph entities, session control).",
   "history": [
+    {
+      "version": "v2.2.8",
+      "notes": "- UEFN Bridge is now focused on the Knowledge Tree. The retired editor-automation half (project runner, Verse toolchain patch, Blender integration) has been removed in favour of Epic's official UEFN MCP toolsets - the app is smaller and faster.\n- First launch cleanly retires any Bridge runner files previously installed inside your UEFN projects (your own files are never touched). Uninstall still cleans up older installs too.\n- Community lesson sharing is now always on: anonymized lessons only, never your source code. Raw Verse drops remain a separate opt-in. Previously collected local lessons are shared once as a one-time catch-up.\n- The lesson collector now runs weekly (daily was overkill) and the health display matches.\n- Ask your AI about Epic's official UEFN MCP - the Knowledge Tree now serves its toolset (Verse compile with structured diagnostics, device configuration, Scene Graph entities, session control)."
+    },
     {
       "version": "v2.2.7",
       "notes": "- Future unsigned friends updates now download, verify, and install directly inside UEFN Bridge instead of sending you to GitHub.\n- This is the one-time transition install for anyone already on v2.2.5 or v2.2.6; after it, normal in-app updating is restored.\n- The Verse build pill now greens after a confirmed compile and accepts a project workspace stored in the parent projects folder.\n- The one-time Setup card now uses one prompt to finish VS Code and create the daily Knowledge Tree lesson collector."
