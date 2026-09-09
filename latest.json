@@ -1,9 +1,13 @@
 {
-  "build_provenance_sha256": "6a9a39bd9931bdbd7c9833a2f77f1dde5e349f05dd110c0dccb07e2137c0fcc7",
-  "bundle_file_count": 2330,
-  "bundle_provenance_sha256": "77f923507362f596d96f2b398a8f2c6e3347ad7494c9c2d3afce569688f99b93",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.11/UEFN-Bridge-Setup-2.2.11.exe",
+  "build_provenance_sha256": "b9e4624201021e4ff8e5c43c53f82eb321d51260f6daecc68a700c10ed5f0fb5",
+  "bundle_file_count": 2334,
+  "bundle_provenance_sha256": "280c0415f74480724c25721b5a64a8b82f7eff89cbd6f05dcdcf7ebe57db2291",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.12/UEFN-Bridge-Setup-2.2.12.exe",
   "history": [
+    {
+      "notes": "- Your AI can prepare and use lightweight local editor Python through the Tree tools.\n- Setup connects to an already-open UEFN project when Epic's Python connection is enabled; no restart or script-path pasting is needed for that route.\n- Jobs stay local to each user and project, with completion receipts and interrupted-job protection.\n- No new app controls or collector schedule changes. Local test build; friends rollout held.\n",
+      "version": "v2.2.12"
+    },
     {
       "notes": "- Includes the full reliability update for lesson delivery, Tree publishing, AI setup, file drops, and interrupted-update recovery.\n- Fixed curator mailbox collection using an old credential after rotation.\n- Existing-lesson backfilling now records a trustworthy completion result instead of repeating an unfinished warning at every launch.\n- Your AI collector schedule is unchanged. Pending lessons continue to send automatically in bounded batches.\n",
       "version": "v2.2.11"
@@ -31,39 +35,35 @@
     {
       "notes": "- Major safety and reliability release: project install/uninstall now changes only files the Bridge can prove it owns, and runner policy changes fail closed.\n- Knowledge Tree writes are serialized across simultaneous Codex and Claude sessions so lessons, wall entries, and upload receipts are no longer lost.\n- Community sharing now requires explicit consent, fails closed, and raw Verse drops have their own separate permission. Turning sharing off cancels pending uploads.\n- Lesson delivery and publishing are replay-safe and report real failures instead of false-green success; withdrawn shared lessons now leave client trees.\n- Automatic capture, Fortnite digest refresh, and the curator pipeline now run from the shipped interface, with clearer health and audit receipts.\n- Windows startup, silent uninstall, and settings switches now preserve unrelated state and show the value the app actually committed.\n- In-app updates now require an exact newer signed release and reject renamed, replayed, downgraded, or version-mismatched installers.\n- The FN version card reads the current local digest, and exact inherited API answers no longer receive a false weak-match warning.\n- New System overview: the Knowledge Tree tab now explains the whole system in plain English - what each automation does and where it runs, how a lesson travels from the community wall into your tree, live community stats, and how long lessons take to reach other users (typically under 90 minutes).\n- 'Verse build: connected' now means the real compile toolchain answered - a different program on the same port can no longer fake readiness, and the reload prompt only clears after VS Code really reloads.\n- If saving your license ever fails, the app now says so and offers 'Save license' to retry - an unlock can no longer be silently lost to a disk hiccup.\n- Editor operations now report honest results: failed imports and placements say they failed instead of 'done', a bad texture path can no longer erase an existing material, and a locked file stops re-importing every few seconds.\n- Community sharing, the lesson feed, and network stats now work on fresh Windows installs that previously failed certificate checks silently.\n- Update checks now distinguish 'up to date' from 'couldn't check' instead of claiming current when the check failed.\n- The daily automations report honest health: the backup says loudly when the mirror push fails, and the AI wall judge actually runs its review (it had never engaged) with truthful receipts.\n- Verse build now sets itself up the moment the app opens and follows you as you switch UEFN projects, so your AI can compile Verse with no manual steps - and it tells you plainly if VS Code needs a workspace-trust prompt or a reload.\n- New attention cards in the corner flag anything that needs you - no AI collector set up, VS Code needs a reload, an unlock that did not save - each with a one-click fix or a copy-paste prompt you can hand to your AI assistant.\n- Your Knowledge Tree now tells your AI when a task it might call impossible actually has a proven method, so it asks you to run it instead of giving up.\n- The Knowledge Tree tab shows honest numbers: community counts read as a dash when the network is unreachable instead of a misleading zero, and the collector warns of a delivery backlog instead of showing green while submissions pile up.\n- Upgrading keeps your lessons: anything your machine taught locally is backed up and sent to the community wall before the shared tree replaces it.\n- A brief license-server outage can no longer lock you out or lose your unlock - only an actual cancellation ends access; a temporary network problem just shows a notice while you keep working.\n- Fixed a stutter every few seconds: the activity console no longer re-reads its log from disk on the interface thread when nothing changed.\n- The pipeline strip now tells queued from stuck: a publish waiting for the daily backup shows amber 'queued' instead of a false red 'STUCK', and the weekly card counts lessons that actually passed the wall (proven facts shown alongside).\n- The FN digest banner refreshes while the app is open instead of freezing at its launch state, and a collector whose scheduled runs quietly die now shows stale instead of healthy.\n- The wall judge now genuinely judges: it reads each pending lesson's evidence daily and promotes, rejects, or holds it within server-enforced bounds, writing every decision to a journal you can review.",
       "version": "v2.2.5"
-    },
-    {
-      "notes": "- 'Grew this week' now shows the network's real weekly growth, same number for everyone.\n- Lesson labels now say where each lesson came from at a glance: yours, community, or harvested from public sources.\n- Your AI's tools got sharper: expanding a lesson always returns the full text, new lessons are stamped with the Fortnite version they were learned on, and the stats now count the thousands of verified API declarations served live from your project's digest.\n- Faster, sturdier global stats serving behind the scenes.",
-      "version": "v2.2.4"
     }
   ],
-  "kt_source_commit": "d1636ca522eb5e39ed4a31edd1033ad0350a5cdf",
-  "kt_source_tree": "b3ef1cc0e9105f7d9d85ab7bc861e8e906b4d8b4",
-  "notes": "- Includes the full reliability update for lesson delivery, Tree publishing, AI setup, file drops, and interrupted-update recovery.\n- Fixed curator mailbox collection using an old credential after rotation.\n- Existing-lesson backfilling now records a trustworthy completion result instead of repeating an unfinished warning at every launch.\n- Your AI collector schedule is unchanged. Pending lessons continue to send automatically in bounded batches.\n",
+  "kt_source_commit": "182a781032da363207ef0d923de6a57bff6d7e6f",
+  "kt_source_tree": "c856a97b3636c6c80c481597a483121ecfe96d2e",
+  "notes": "- Your AI can prepare and use lightweight local editor Python through the Tree tools.\n- Setup connects to an already-open UEFN project when Epic's Python connection is enabled; no restart or script-path pasting is needed for that route.\n- Jobs stay local to each user and project, with completion receipts and interrupted-job protection.\n- No new app controls or collector schedule changes. Local test build; friends rollout held.\n",
   "release_channel": "friends-unsigned-v1",
-  "sha256": "0fb4f24a904556c1848a467eef818b1c0b08e230dd8c3f4be08e3e82ddb1f9ef",
-  "size": 140992719,
-  "source_commit": "98af698eb390be1c5d1c13c717608085769522c4",
+  "sha256": "42c09b036c156d1b3e8fac26f46a68d6333aefd3a9b51dfec8e85194a292eeae",
+  "size": 140969099,
+  "source_commit": "b6873aadf8fb8daea6cfcffdba27b382b1b1b0b3",
   "source_offer": [
     {
-      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.11/qt-everywhere-src-6.11.1.tar.xz",
+      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.12/qt-everywhere-src-6.11.1.tar.xz",
       "filename": "qt-everywhere-src-6.11.1.tar.xz",
       "sha256": "252acef8c5ae68074d91cadba2ee4a83465051bbb970dd26e8f0daa0f3904e03",
       "size": 1017723080
     },
     {
-      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.11/pyside-setup-everywhere-src-6.11.1.tar.xz",
+      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.12/pyside-setup-everywhere-src-6.11.1.tar.xz",
       "filename": "pyside-setup-everywhere-src-6.11.1.tar.xz",
       "sha256": "6ffd9835bb0dd2c56f061d62f1616bb1707cfc0202b80e3165d6be087f3965e2",
       "size": 17963432
     },
     {
-      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.11/certifi-2026.5.20.tar.gz",
+      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.12/certifi-2026.5.20.tar.gz",
       "filename": "certifi-2026.5.20.tar.gz",
       "sha256": "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d",
       "size": 135422
     }
   ],
-  "source_tree": "483c61a6ef31c34900ea2ce460d4e5a4aefee4bc",
-  "version": "v2.2.11"
+  "source_tree": "1eaf5496fe267d7dda4a9ad23f849b8718fd85bd",
+  "version": "v2.2.12"
 }
