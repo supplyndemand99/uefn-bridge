@@ -1,9 +1,13 @@
 {
-  "build_provenance_sha256": "ae889282c9036a1a2b7fe9378ae5bb17ed5b905ec6e5321451e6c182e79dedda",
-  "bundle_file_count": 2335,
-  "bundle_provenance_sha256": "5e153bdcac3484abcb49428dbf84f27bb76c2b419ba6d39b09cc38b3ee88e3b3",
-  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.13/UEFN-Bridge-Setup-2.2.13.exe",
+  "build_provenance_sha256": "b407fe002d38a815231958d8a5824bf9010be962a9f6a522d819a9958a3644bc",
+  "bundle_file_count": 2337,
+  "bundle_provenance_sha256": "aba3d779baec08f701fbd868cb19a3aa81fba3f6c3a130114157f0e44bb6d669",
+  "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.14/UEFN-Bridge-Setup-2.2.14.exe",
   "history": [
+    {
+      "notes": "- Improved current Fortnite API detection, including project-specific digest caches.\n- Your AI gets clearer project connection and verification guidance.\n- Disputed lessons stay on hold until the curator records new evidence.\n- Relevant Claude project-memory notes can contribute lesson candidates.\n- More accurate collector, upload and sync diagnostics; missing records are no longer shown as zero.\n- Your collector schedule is unchanged. Unsigned friends release.\n",
+      "version": "v2.2.14"
+    },
     {
       "notes": "- Fixed saved access appearing to disappear when Bridge is opened through different apps.\n- Bridge and its AI tools now use one consistent Windows data location.\n- Existing settings and lesson records are recovered with verified backups; original folders are retained.\n- Improved licence-save checks, recovery retries, AI connection status and update receipts.\n- Your AI collector schedule is unchanged. Unsigned friends release.\n",
       "version": "v2.2.13"
@@ -31,39 +35,35 @@
     {
       "notes": "- Future unsigned friends updates now download, verify, and install directly inside UEFN Bridge instead of sending you to GitHub.\n- This is the one-time transition install for anyone already on v2.2.5 or v2.2.6; after it, normal in-app updating is restored.\n- The Verse build pill now greens after a confirmed compile and accepts a project workspace stored in the parent projects folder.\n- The one-time Setup card now uses one prompt to finish VS Code and create the daily Knowledge Tree lesson collector.\n",
       "version": "v2.2.7"
-    },
-    {
-      "notes": "- The \"Verse build\" pill now correctly recognises a matching VS Code workspace in the project's parent folder, so it no longer stays stuck on yellow.\n- New one-time \"Finish UEFN Bridge setup\" card walks your AI through updating and connecting VS Code, verifying a compile, and setting up the daily lesson collector, then clears itself when you click Mark verified.\n",
-      "version": "v2.2.6"
     }
   ],
-  "kt_source_commit": "87e03092fac2f7a22e03b684cd8715ea0ea96b52",
-  "kt_source_tree": "9c7212366bfc2f204c79678fa154828a2a71d529",
-  "notes": "- Fixed saved access appearing to disappear when Bridge is opened through different apps.\n- Bridge and its AI tools now use one consistent Windows data location.\n- Existing settings and lesson records are recovered with verified backups; original folders are retained.\n- Improved licence-save checks, recovery retries, AI connection status and update receipts.\n- Your AI collector schedule is unchanged. Unsigned friends release.\n",
+  "kt_source_commit": "08c33fd4bf985d6ab02dd5f41f907991ffc2f39c",
+  "kt_source_tree": "2e8ba5f3e9e402fb149dc3a4121940befc8e1efa",
+  "notes": "- Improved current Fortnite API detection, including project-specific digest caches.\n- Your AI gets clearer project connection and verification guidance.\n- Disputed lessons stay on hold until the curator records new evidence.\n- Relevant Claude project-memory notes can contribute lesson candidates.\n- More accurate collector, upload and sync diagnostics; missing records are no longer shown as zero.\n- Your collector schedule is unchanged. Unsigned friends release.\n",
   "release_channel": "friends-unsigned-v1",
-  "sha256": "5187dbd876a527bc3987f1755f586bb1cdda228d929d832b4c5291595aabb7c1",
-  "size": 141016777,
-  "source_commit": "3337d4747d76f9e7e21ace87284ec4ad156d7ebc",
+  "sha256": "19b7b352fdbd94a176e545d7cc75d4406ef8c902b33eb8c76d6b692522f580ff",
+  "size": 141067127,
+  "source_commit": "6c9d3e67b5a9b9c922d0a46bdca41cb7bcd07c82",
   "source_offer": [
     {
-      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.13/qt-everywhere-src-6.11.1.tar.xz",
+      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.14/qt-everywhere-src-6.11.1.tar.xz",
       "filename": "qt-everywhere-src-6.11.1.tar.xz",
       "sha256": "252acef8c5ae68074d91cadba2ee4a83465051bbb970dd26e8f0daa0f3904e03",
       "size": 1017723080
     },
     {
-      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.13/pyside-setup-everywhere-src-6.11.1.tar.xz",
+      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.14/pyside-setup-everywhere-src-6.11.1.tar.xz",
       "filename": "pyside-setup-everywhere-src-6.11.1.tar.xz",
       "sha256": "6ffd9835bb0dd2c56f061d62f1616bb1707cfc0202b80e3165d6be087f3965e2",
       "size": 17963432
     },
     {
-      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.13/certifi-2026.5.20.tar.gz",
+      "download_url": "https://github.com/supplyndemand99/uefn-bridge/releases/download/v2.2.14/certifi-2026.5.20.tar.gz",
       "filename": "certifi-2026.5.20.tar.gz",
       "sha256": "69dea482ab64caa7b9f6aba1c6bf48bb6a5448d1c0f1b17ab42ad8c763a5344d",
       "size": 135422
     }
   ],
-  "source_tree": "652277ec45b7d7855e5c1d2625b71fa5327056c0",
-  "version": "v2.2.13"
+  "source_tree": "237df33c21a0cbe1c331dcfea036aec273f4741e",
+  "version": "v2.2.14"
 }
